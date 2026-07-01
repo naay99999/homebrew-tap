@@ -1,28 +1,28 @@
 class Ney < Formula
   desc "Local-first CLI knowledge engine — index files, search by meaning, ask questions with source citations"
   homepage "https://github.com/naay99999/neything"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/naay99999/neything/releases/download/v0.3.0/ney_0.3.0_darwin_arm64.tar.gz"
-      sha256 "13cec99ef1d54d1448d4d73c25a3af7ae5ff7707b2e11c4a3d9b499c596b8b61"
+      url "https://github.com/naay99999/neything/releases/download/v0.4.0/ney_0.4.0_darwin_arm64.tar.gz"
+      sha256 "cdc507af47dd0a67a0fbf092389dd0b440779b8cc7c85e0e13a7df959e707673"
     end
     on_intel do
-      url "https://github.com/naay99999/neything/releases/download/v0.3.0/ney_0.3.0_darwin_amd64.tar.gz"
-      sha256 "887dd5b6eb45dba77405679b9a098faf170acfc2aa352008b72cf5d13e9d3b91"
+      url "https://github.com/naay99999/neything/releases/download/v0.4.0/ney_0.4.0_darwin_amd64.tar.gz"
+      sha256 "6dc9db7faddf4ba98b4d596c1c2079ad6590d18c8792db3273c4fd2808c79351"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/naay99999/neything/releases/download/v0.3.0/ney_0.3.0_linux_arm64.tar.gz"
-      sha256 "22e3b6c90534e70daf7ba5f3ec9305df3fbc789de66d834f6acb1992cd7f5d65"
+      url "https://github.com/naay99999/neything/releases/download/v0.4.0/ney_0.4.0_linux_arm64.tar.gz"
+      sha256 "15ee9606e32e94af9ce3b18aca6275e411fc57d2b5e4b8e74f0134e2c9d1e093"
     end
     on_intel do
-      url "https://github.com/naay99999/neything/releases/download/v0.3.0/ney_0.3.0_linux_amd64.tar.gz"
-      sha256 "82b3770faec82435c0858cc22f140e043f0ba7de0044ad53118134b1421e535a"
+      url "https://github.com/naay99999/neything/releases/download/v0.4.0/ney_0.4.0_linux_amd64.tar.gz"
+      sha256 "37fbf863067025b5294fb547704de16316e403e2b75969099ce6673a11a20d07"
     end
   end
 
