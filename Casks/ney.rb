@@ -1,9 +1,9 @@
 cask "ney" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.4.1"
-  sha256 arm:   "893b5e11222afac9e6ea66c2db2fcaba159f8950d82d2d63f2f5a2019be1ff6a",
-         intel: "25b62ad298bd1b348afd8b3af1d050b75a2f250ebdd27389fb99389d6502b3ed"
+  version "0.5.0"
+  sha256 arm:   "93748f4d408fc9b4fdf34b35f3e098ab7a45db7aa63c4ff888a7f01016ff74c8",
+         intel: "91e8dcd9c7944579210c043716c133171295e5f3cf073b3871109ee95bed016e"
 
   url "https://github.com/naay99999/neything/releases/download/v#{version}/ney_#{version}_darwin_#{arch}.tar.gz"
   name "ney"
